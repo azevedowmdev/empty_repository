@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+body a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu ul li, .weslei-search-header, .cart {
+  list-style: none;
+  display: inline-block;
+}
+
+.cabecalho {
+  background-color: #e4e4e4;
+  position: relative;
+}
+
+.cabecalho a[href="/produtos"], .cabecalho a[href="/contato"] {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.logotipo {
+  font-size: 3em;
+  margin: 0 70px 0 40px;
+}
+
+.busca {
+  border: none;
+  margin-left: 100px;
+}
+
+.busca input:last-child {
+  border: none;
+  border: 1px solid #000;
+  padding: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.busca legend, .busca label {
+  display: none;
+}
+
+.busca select {
+  display: none;
+}
+
+.fulltext-search-box, .ui-autocomplete-input {
+  width: 30em;
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.cart {
+  width: 2.5%;
+  float: right;
+  margin: 10px 40px 0 0;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.cart .sacola-itens {
+  position: absolute;
+  height: 200px;
+  background-color: #e4e4e4;
+  padding: 7px;
+  right: 40px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.cart .sacola-itens ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cart .sacola-itens .btn-finalizar-compra {
+  background-color: #999999;
+  border: 1px solid #000;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+
+.cart:hover .sacola-itens {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cart .title {
+  font-size: 22px;
+}
+
+.cart .cart-info strong {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.cart .cart-info em {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.cart .cartInfoWrapper {
+  padding: 10px;
+}
+
+.cart .cartInfoWrapper ul li {
+  font-size: 20px;
+}
+
+.welcomeMessage {
+  width: 15%;
+  text-align: center;
+  position: absolute;
+  right: 100px;
+  top: 12px;
+}
+
+.welcomeMessage:hover #login {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home-banner img {
+  width: 100%;
+}
+/*# sourceMappingURL=header-weslei.css.map */
